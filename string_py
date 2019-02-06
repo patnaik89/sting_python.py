@@ -1,0 +1,4 @@
+x = "dillip"
+print(x.capitalize)
+y = x.capitalize
+print(y)
