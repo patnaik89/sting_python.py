@@ -1,6 +1,11 @@
-x = "dillip"
+x = 'dillip'
 print(x.capitalize)
 y = x.capitalize
 print(y)
 print(x.lower)
 print(x.upper)
+x = 1
+y = 2.5
+z = x+y
+s = ('hello,world')
+print(s)
