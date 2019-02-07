@@ -9,3 +9,12 @@ y = 2.5
 z = x+y
 s = ('hello,world')
 print(s)
+
+
+dryfriut = 91.00
+wovenbag = 2.00
+tea =24.50
+perfum =186.20
+total = dryfriut + wovenbag + tea + perfum
+print(total)
+303.7
