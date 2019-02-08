@@ -36,6 +36,6 @@ total=0
 for j in range(0,len(item):
 temp=Qty[j]*price[j]
 total=total+temp
-myfile.write("\t\t\total\t"+str(total)+"\n")
+myfile.write("\t\t\tTOTAL\t"+str(total)+"\n")
 myfile.write("_____________\n")
 myfile.close()
