@@ -38,4 +38,29 @@ temp=Qty[j]*price[j]
 total=total+temp
 myfile.write("\t\t\tTOTAL\t"+str(total)+"\n")
 myfile.write("_____________\n")
+
+Cost_Per_Desert = 3.00
+Tax_Rate = .075
+Gratuity_Tips = .15
+Adult_Meal_Cost = 12.75
+Child_Meal_Cost = .60*12.75
+Room_Fee = 450.00
+Less_Deposit = 250.00
+
+
+   def main():
+
+   #         Input Section
+
+
+    Name = input("\n\n Customer:\t\t\t ")
+    Number_Of_Adults = int(input(" Number of Adults:\t\t "))
+    Number_Of_Children = int(input(" Number of Children:\t\t "))
+    Number_Of_Deserts = int(input(" Number of Deserts:\t\t "))
+
+
+
+   print("\n\nCost Of Meal Per Adult:\t\t" , Adult_Meal_Cost)
+   print("Cost of Meal Per Child:\t\t" , round(Child_Meal_Cost,2))
+   print("Cost Per Desert:\t\t" , round(Cost_Per_Desert,2))
 myfile.close()
