@@ -79,7 +79,7 @@ a,b,c,d =1,1,1,1
   4   Axe Signature Men Body Perfum 1  186.2
 >>> print("_"*30)
 n= (a*x) +(B*y) + (c*z)
-GST= n*21.05
+GST= n*0.03
 total =n + GST
 print("sub total".center(23),n)
 print("GST@ 3%".center(23),GST)
