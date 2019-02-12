@@ -56,3 +56,32 @@ else:
     print("Invalid customer name. Customer name must be between 3 and 20 characters");
 
 bill 
+__________________________________________________
+string bill
+
+
+print("ADITYA BIRLA".center(30))
+         ADITYA BIRLA         
+>>> print("SHOPING MALL".center(30,'*'))
+*********SHOPING MALL*********
+>>> print("DATE 11 FEB 2019".center(40))
+            DATE 11 FEB 2019            
+>>> print("_"*30)
+a,b,c,d =1,1,1,1
+>>> x,y,z,p = 91,2,24.50,186.20
+>>> print("  1  " + " Mix-dry fruit  " + " {}   {}".format(str(a),a*x))
+  1   Mix-dry fruit   1   91
+>>> print(" 2   " +  " Non Woven Bag " + " {}   {}".format(str(b),b*y))
+ 2    Non Woven Bag  1   2
+>>> print("  3  " + " Plax Mouthfresh " + " {}   {}".format(str(c),c*z))
+  3   Plax Mouthfresh  1   24.5
+>>> print("  4  " + " Axe Signature Men Body Perfum" + " {}  {}".format(str(d),d*p))
+  4   Axe Signature Men Body Perfum 1  186.2
+>>> print("_"*30)
+n= (a*x) +(B*y) + (c*z)
+GST= n*21.05
+total =n + GST
+print("sub total".center(23),n)
+print("GST@ 3%".center(23),GST)
+print("-"*30)
+print("TOTAL".center(23),n)
