@@ -15,3 +15,6 @@ print ("list2[1:5]:", list2[1:5])
 #!/usr/bin/python
 list = ['physics', 'chemistry', 2000, 2003];
 print("value available at index 2 :")
+print(list[2])
+list[2] = 2004;
+print("new value avilable at index 2:")
