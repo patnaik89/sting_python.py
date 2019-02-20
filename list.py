@@ -16,3 +16,12 @@ print("value available at index 2 :")
 print(list[2])
 list[2] = 2004;
 print("new value avilable at index 2:")
+print(list[2])
+
+delet list elements
+#!/usr/bin/python
+list1 = ['physics', 'chemistry', 2000, 2003]
+print(list1)
+del(list1[2]);
+print ("After deleting at index 2 :")
+print(list1)
