@@ -8,3 +8,8 @@ print("vermaclabs")
 print("Madhapur, hyderabad")
 print("date: 12/02/2019 11:49")
 print("Saff: Deelip")
+
+print("Vermaclabs".center(30))
+print("Madhapur, hyderabad".center(30))
+print("date : 12/02/2019  Time: 11:49".center(30))
+print("staff   deelip".center(30))
