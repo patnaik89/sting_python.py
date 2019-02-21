@@ -17,4 +17,4 @@ print("staff   deelip".center(30))
 
 
 print("company" , " address"  ," date" , "time" , "staff/n" 
-       +company," "+  address,' ' +  date,' '+ time,' ' + staff,' ')  
+       + company," "+  address,' ' +  date,' '+ time,' ' + staff,' ')  
