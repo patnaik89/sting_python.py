@@ -13,3 +13,8 @@ print("Vermaclabs".center(30))
 print("Madhapur, hyderabad".center(30))
 print("date : 12/02/2019  Time: 11:49".center(30))
 print("staff   deelip".center(30))
+
+
+
+print("company"  +  " address"  +  " date" + "time" + "staff" \n "
+       company," "|  adress,' ' |  date,' '| time,' ' | staff,' ')  
