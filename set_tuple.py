@@ -47,22 +47,23 @@ A = {"apple","orange","cherry"}
 B = {"banana"}
 A.add("banana")
 print(A)
+{'apple', 'orange', 'banana', 'cherry'}   #output
 
 # B+A
 A = {"orange"}
 B = {"apple","cherry","banana"}
 B.add("orange")
 print(B)
-
+{'apple', 'banana', 'cherry', 'orange'}      # output
 
 # create tuple
-
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
-
+('apple', 'banana', 'cherry')       # ouput
 
 # create nested tuple
 tuple1 = (0,1,2,3)
 tuple2 = ('book','pen')
 tuple3 = (tuple1,tuple2)
 print(tuple3)
+((0, 1, 2, 3), ('book', 'pen'))    # output
