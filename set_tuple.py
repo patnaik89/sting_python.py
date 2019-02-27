@@ -1,3 +1,11 @@
+"How to create set"
+"Set operations(union,intersections)"
+"(A-B),(B-A),(A+B),(B+A),(A union B),(B union A),(A intersection B),(B intersection A)"
+"create tuple"
+"create nested tuple"
+"create dynamic tuple"
+
+
 # create set
 x = {"apple","banana","cherry"}
 print(x)
