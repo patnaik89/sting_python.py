@@ -14,3 +14,10 @@
 t = ((1, 'a'),(2, 'b'))
 x = dict(t)
 {1: 'a', 2: 'b'}   #  output
+
+
+
+
+***fuzzy task***
+***if two men stand back to back walk in opposite directions for 4 meters,
+***turn to the left and walk another3 meters,what is the distance between them when they stop ?***
