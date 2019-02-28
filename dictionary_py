@@ -1,3 +1,7 @@
+ ***create a dictionary***
+ ***convert tuple to dictionary***
+ 
+ 
  # create a dictionary
  car = {"brand": "skoda" ,
        "model" : "octavia" ,
