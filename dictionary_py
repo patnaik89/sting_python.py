@@ -1,0 +1,7 @@
+ # create a dictionary
+ car = {"brand": "skoda" ,
+       "model" : "octavia" ,
+       "year" : 2018
+       }
+ print(car)
+ 
