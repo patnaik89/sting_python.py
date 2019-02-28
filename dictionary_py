@@ -4,4 +4,9 @@
        "year" : 2018
        }
  print(car)
- 
+{'brand': 'skoda', 'model': 'octavia', 'year': 2018}     # out put
+
+# conver tuple to dectionary
+t = ((1, 'a'),(2, 'b'))
+x = dict(t)
+{1: 'a', 2: 'b'}   #  output
