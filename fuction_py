@@ -21,7 +21,7 @@ def sub(x, y, z=10):  # z is a default parameter
 print("The substation of numbers:", sub(10, 6))
 print("The substation of numbers:", sub(5, 30))
 
-""" Create function with defult arguments."""
+"""2. Create function with defult arguments."""
 
 def greet(name, msg = "Good morning!"):
    """
