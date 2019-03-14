@@ -1,5 +1,5 @@
-"""1.Create function.adding two without using third variable
-   2.create function with defult argument."""
+"""1.Create function.adding two without using third variable."""
+
 # how to swap two variables without using 3rd variable:-
 x = 10
 y = 5
@@ -20,3 +20,21 @@ def sub(x, y, z=10):  # z is a default parameter
     return x - y - z
 print("The substation of numbers:", sub(10, 6))
 print("The substation of numbers:", sub(5, 30))
+
+""" Create function with defult arguments>"""
+
+def greet(name, msg = "Good morning!"):
+   """
+   This function greets to
+   the person with the
+   provided message.
+
+   If message is not provided,
+   it defaults to "Good
+   morning!"
+   """
+
+   print("Hello",name + ', ' + msg)
+
+greet("Kate")
+greet("Bruce","How do you do?")
