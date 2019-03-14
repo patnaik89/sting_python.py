@@ -1,12 +1,22 @@
+"""1.Create function.adding two without using third variable
+   2.create function with defult argument."""
 # how to swap two variables without using 3rd variable:-
 x = 10
 y = 5
 x = x + y  # x now becomes 30
-
 y = x - y  # y becomes 10
-
 x -= y  # x becomes 5
-
 y *= x  # y becomes 50
-
 print("After Swapping: x =", x, " y =", y)
+
+# Arbitary arguments with non key word arguments
+def add(a, b):  # positional arguments
+    return a + b
+print("adding of two numbers:", add(4, 5))
+def mul(c, d, e, f):  # keyword arguments
+    return c * f
+print("multiplication two numbers:", mul(d=10, f=20, c=12, e=46))
+def sub(x, y, z=10):  # z is a default parameter
+    return x - y - z
+print("The substation of numbers:", sub(10, 6))
+print("The substation of numbers:", sub(5, 30))
