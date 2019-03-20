@@ -46,10 +46,10 @@ class Family:
 
 
 x = Family()
-x.add_member_family("charan", 23, 12345)
+x.add_member_family("vinaye", 23, 12345)
 x.add_member_family("ravi", 25, 123456)
 x.add_member_family("kumar", 27, 123457)
-x.add_member_family("nagesh", 30, 1234556)
+x.add_member_family("devisri", 30, 1234556)
 x.add_member_family("suneetha", 23, 12345568)
 print("The families are:", x.family)
 
