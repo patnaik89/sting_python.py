@@ -1,0 +1,54 @@
+from datetime import datetime
+
+date_time=datetime.today()
+print(date_time)
+
+from datetime import date
+tdys_date=date.today()
+print(tdys_date)
+
+
+''' finding current year and time in hour using instance attributes '''
+print("current year:%d "%date_time.year)
+
+print("current time in hour :%d "%date_time.hour)
+
+
+''' current date , weekday using
+ strftime ( string format time ) - datetime object to other formats '''
+print(date_time.strftime("%d-%m-%y  %A"))  
+
+
+''' strptime (string parse time)- string to datetime object '''
+datetime_object = datetime.strptime('Jun 1 2019  1:33PM', '%b %d %Y %I:%M%p')
+
+
+'''
+from functions import *
+print('-'*20)
+'''
+
+import math
+
+print("floor function") 
+print(math.floor(2.12))
+print(math.floor(-2.12))
+print(math.floor(7.890))
+
+print("ceil function")
+
+print(math.ceil(2.6789))
+print(math.ceil(22.3244))
+
+
+import time
+t= time.time()
+print(t)
+
+
+print('Date-', datetime_object.date())
+print('Time-', datetime_object.time())
+
+from datetime import timezone
+datetime_object = datetime_object.replace(tzinfo=timezone.utc)
+print(datetime_object)
